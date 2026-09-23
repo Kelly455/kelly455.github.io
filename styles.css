@@ -1,0 +1,36 @@
+:root {
+    --color-primary: #C1440E;
+    --color-secondary: #E8C87E;
+    --color-dark: #2F4538;
+    --color-bg: #FDF6EC; 
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    padding: 40px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+    color: var(--color-primary);
+}
+
+button {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#output, #dealResult, #ageResult, #packageResult {
+    color: var(--color-dark);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+section {
+    margin-bottom: 40px;
+}
